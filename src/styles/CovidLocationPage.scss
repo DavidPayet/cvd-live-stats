@@ -1,0 +1,84 @@
+.CovidLocationPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .mapGl {
+    padding-bottom: 100px;
+  }
+
+  .homeIcon {
+    color: rgb(221, 126, 68);
+    font-size: 40px;
+    float: left;
+    margin: 20px;
+  }
+
+  h1 {
+    color: rgb(221, 126, 68);
+    float: right;
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .marker {
+    text-align: "center";
+
+    .marker-btn {
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 0;
+      height: 15px;
+      width: 15px;
+    }
+  }
+
+  .pointer {
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mapboxgl-popup-content {
+    background: rgba(255, 255, 255, 0.363);
+    color: white;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+
+    h2 {
+      font-size: 20px;
+      padding-bottom: 10px;
+
+      .flag {
+        height: 15px;
+      }
+    }
+
+    .pRecovered {
+      color: rgb(0, 255, 0);
+    }
+
+    .pCases {
+      color: rgb(255, 146, 78);
+    }
+
+    .pDeaths {
+      color: rgb(255, 0, 0);
+    }
+  }
+
+  .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-left .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-right .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip,
+  .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip {
+    border-color: transparent;
+  }
+}

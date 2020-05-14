@@ -1,0 +1,54 @@
+.CovidLiveStatsPage {
+  background: rgb(38, 40, 86);
+  padding: 0 20px;
+
+  .homeIcon {
+    color: rgb(221, 126, 68);
+    font-size: 40px;
+    float: left;
+    margin: 30px;
+  }
+
+  h1 {
+    color: rgb(221, 126, 68);
+    padding: 80px 0;
+  }
+
+  .lastUpdate {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 60px;
+  }
+
+  .doghnutCol {
+    padding: 0;
+  }
+
+  .searchBar {
+    margin: auto;
+    width: 60%;
+    padding: 40px 0;
+    border: none;
+
+    .searchLogo {
+      font-size: 40px;
+      color: white;
+    }
+  }
+
+  .oneCard {
+    background: transparent;
+    border: .5px solid rgb(221, 126, 68);
+    margin: 20px;
+    color: white;
+
+    .flag {
+      width: 150px;
+      height: 80px;
+    }
+
+    .titleCard {
+      padding: 30px 0;
+    }
+  }
+}
