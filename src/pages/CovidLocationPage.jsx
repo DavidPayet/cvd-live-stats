@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import axios from 'axios';
 
+import Footer from '../components/Footer';
+
 import '../styles/CovidLocationPage.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -111,6 +113,7 @@ const CovidLocationPage = () => {
             </div>
           </Popup>
         ) : null}
+        <Footer />
       </ReactMapGL>
     </div>
   );

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
+import Footer from '../components/Footer';
 import '../styles/HomePage.scss';
 
 const HomePage = () => {
   return (
     <div className="HomePage">
       <h1>CVD-19 Stats</h1>
-      <Container>
+      <Container className="homePage">
         <Row>
           <Col xl="2" lg="2" md="2" sm="1" xs="1" />
           <Col xl="8" lg="8" md="8" sm="10" xs="10" className="linkCol">
@@ -28,6 +29,7 @@ const HomePage = () => {
           <Col xl="2" lg="2" md="2" sm="1" xs="1" />
         </Row>
       </Container>
+      <Footer />
     </div>
   )
 }

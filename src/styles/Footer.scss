@@ -1,0 +1,19 @@
+.Footer {
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .footer {
+    
+    a {
+      color: rgb(221, 126, 68);
+      padding: 0;
+      text-decoration: none;
+
+      .iconsLinks {
+        font-size: 25px;
+        margin: 0 20px;
+      }
+    }
+  }
+}
