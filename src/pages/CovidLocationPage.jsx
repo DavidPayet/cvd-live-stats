@@ -5,6 +5,7 @@ import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import axios from 'axios';
 
 import '../styles/CovidLocationPage.scss';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const CovidLocationPage = () => {
   const [viewport, setViewport] = useState({
@@ -44,7 +45,7 @@ const CovidLocationPage = () => {
     <div className="CovidLocationPage">
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
         mapStyle="mapbox://styles/webdav42/cka19nbgu1ytg1ilnpiavlnjs"
         onViewportChange={(viewport) => {
           setViewport(viewport)
