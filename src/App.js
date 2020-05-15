@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import HomePage from './pages/HomePage';
 import CovidLiveStatsPage from './pages/CovidLiveStatsPage';
 import CovidLocationPage from './pages/CovidLocationPage';
+import HomePage from './pages/HomePage';
 import './App.scss';
 
 const App = () => {

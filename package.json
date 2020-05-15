@@ -19,6 +19,7 @@
     "react-map-gl": "^5.2.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "react-tooltip": "^4.2.6",
     "reactstrap": "^8.4.1"
   },
   "scripts": {
