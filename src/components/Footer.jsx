@@ -25,7 +25,7 @@ const Footer = () => {
                 effect="float"
                 textColor='#5F4B8BFF'
               >
-                <span>View Code Source</span>
+                <span>View Source Code</span>
               </ReactTooltip>
             </a>
             <a
