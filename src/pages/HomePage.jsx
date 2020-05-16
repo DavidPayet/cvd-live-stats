@@ -10,23 +10,33 @@ const HomePage = () => {
       <h1>CVD-19 Stats</h1>
       <Container className="homePage">
         <Row>
-          <Col xl="2" lg="2" md="2" sm="1" xs="1" />
-          <Col xl="8" lg="8" md="8" sm="10" xs="10" className="linkCol">
+          <Col xl="6" lg="6" md="6" sm="12" xs="12" >
+            <img
+              className="illustration"
+              src="/medias/illustration4.svg"
+              alt="Illustration"
+            />
+          </Col>
+          <Col xl="6" lg="6" md="6" sm="12" xs="12" className="linkCol">
             <Link to='/covidlivestats' className="linkBtn">
               <p>Global CVD Live Stats</p>
             </Link>
           </Col>
-          <Col xl="2" lg="2" md="2" sm="1" xs="1" />
         </Row>
         <br />
         <Row>
-          <Col xl="2" lg="2" md="2" sm="1" xs="1" />
-          <Col xl="8" lg="8" md="8" sm="10" xs="10" className="linkCol">
-            <Link to='/covidlocation' className="linkBtn">
-              <p>CVD Live Stats on the Map</p>
+          <Col xl="6" lg="6" md="6" sm="12" xs="12" className="linkCol">
+          <Link to='/covidlocation' className="linkBtn">
+              <p>CVD on the Map</p>
             </Link>
           </Col>
-          <Col xl="2" lg="2" md="2" sm="1" xs="1" />
+          <Col xl="6" lg="6" md="6" sm="12" xs="12">
+            <img
+              className="illustration"
+              src="/medias/illustration3.svg"
+              alt="Illustration"
+            />
+          </Col>
         </Row>
       </Container>
       <Footer />
