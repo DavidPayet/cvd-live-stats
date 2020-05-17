@@ -19,7 +19,7 @@ const HomePage = () => {
           </Col>
           <Col xl="6" lg="6" md="6" sm="12" xs="12" className="linkCol">
             <Link to='/covidlivestats' className="linkBtn">
-              <p>Global CVD Live Stats</p>
+              <p>CVD Live Stats</p>
             </Link>
           </Col>
         </Row>
@@ -27,7 +27,7 @@ const HomePage = () => {
         <Row className="reversedCol">
           <Col xl="6" lg="6" md="6" sm="12" xs="12" className="linkCol">
             <Link to='/covidlocation' className="linkBtn">
-              <p>CVD on the Map</p>
+              <p>CVD Location</p>
             </Link>
           </Col>
           <Col xl="6" lg="6" md="6" sm="12" xs="12" id="two">
