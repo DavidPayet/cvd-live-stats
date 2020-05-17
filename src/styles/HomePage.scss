@@ -15,50 +15,53 @@
       border-radius: 10px;
       margin: 0 15px;
 
+
       .illustration {
-        width: 50%;
+        width: 70%;
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 40px auto;
-
+        margin: 0 auto 40px;
       }
 
       .linkCol {
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         display: flex;
 
         .linkBtn {
           text-decoration: none;
-          justify-content: center;
-          align-items: center;
-          display: flex;
 
           p {
-            width: 300px;
-            height: 60px;
+            padding: 15px 40px;
             border-radius: 5px;
             border: none;
             background: rgb(219, 124, 71);
             color: rgb(38, 40, 86);
-            justify-content: center;
-            align-items: center;
-            display: flex;
             font-weight: bold;
             font-size: 20px;
             margin: 0;
-
-            @media (max-width: 576px) {
-              width: 200px;
-            }
+            width: 290px;
 
             &:hover {
               box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.75);
             }
           }
         }
+      }
+
+    }
+
+    // reverse col in mobile devices
+    @media screen and (max-width: 576px) {
+      .reversedCol {
+        display: flex;
+        flex-flow: column;
+      }
+
+      #two {
+        order: -1;
       }
     }
   }

@@ -24,13 +24,13 @@ const HomePage = () => {
           </Col>
         </Row>
         <br />
-        <Row>
+        <Row className="reversedCol">
           <Col xl="6" lg="6" md="6" sm="12" xs="12" className="linkCol">
-          <Link to='/covidlocation' className="linkBtn">
+            <Link to='/covidlocation' className="linkBtn">
               <p>CVD on the Map</p>
             </Link>
           </Col>
-          <Col xl="6" lg="6" md="6" sm="12" xs="12">
+          <Col xl="6" lg="6" md="6" sm="12" xs="12" id="two">
             <img
               className="illustration"
               src="/medias/illustration3.svg"
