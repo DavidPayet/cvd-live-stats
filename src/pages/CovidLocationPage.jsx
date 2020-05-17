@@ -11,11 +11,11 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 const CovidLocationPage = () => {
   const [viewport, setViewport] = useState({
-    latitude: 46.227638,
+    latitude: 26.227638,
     longitude: 2.213749,
     width: '100vw',
     height: '100vh',
-    zoom: 2
+    zoom: 1.3
   });
   const [results, setResults] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -57,7 +57,7 @@ const CovidLocationPage = () => {
         <Link to='/' >
           <GoHome className="homeIcon" />
         </Link>
-        <h1>CVD-byLOC</h1>
+        <h1>CVD-LOC</h1>
 
         {results.map((data, i) => (
           <Marker
