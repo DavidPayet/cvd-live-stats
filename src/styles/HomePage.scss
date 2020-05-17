@@ -34,7 +34,7 @@
           text-decoration: none;
 
           p {
-            padding: 15px 40px;
+            padding: 10px 20px;
             border-radius: 5px;
             border: none;
             background: rgb(219, 124, 71);
@@ -42,7 +42,6 @@
             font-weight: bold;
             font-size: 20px;
             margin: 0;
-            width: 290px;
 
             &:hover {
               box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.75);
@@ -54,7 +53,7 @@
     }
 
     // reverse col in mobile devices
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 760px) {
       .reversedCol {
         display: flex;
         flex-flow: column;
