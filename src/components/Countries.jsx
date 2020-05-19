@@ -31,9 +31,9 @@ const Countries = () => {
           <Card.Img variant="top" src={data.countryInfo.flag} className="flag" />
           <Card.Body>
             <Card.Title className="titleCard">{data.country}</Card.Title>
-            <Card.Text>Cases {data.cases}</Card.Text>
-            <Card.Text>Deaths {data.deaths}</Card.Text>
-            <Card.Text>Recovered {data.recovered}</Card.Text>
+            <Card.Text style={{color: '#DD7E44'}}>Cases {data.cases}</Card.Text>
+            <Card.Text style={{color: '#26A94C'}}>Recovered {data.recovered}</Card.Text>
+            <Card.Text style={{color: '#DB2D44'}}>Deaths {data.deaths}</Card.Text>
             <Card.Text>Today's Cases {data.todayCases}</Card.Text>
             <Card.Text>Today's Deaths {data.todayDeaths}</Card.Text>
             <Card.Text>active {data.active}</Card.Text>
